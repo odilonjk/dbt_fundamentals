@@ -6,7 +6,9 @@ I made this repository while studying dbt [here](https://courses.getdbt.com/cour
 
 ### 2. Running dbt
 
-`docker compose up dbt`
+`docker-compose run dbt <command>`
+
+[Commands reference](https://docs.getdbt.com/reference/dbt-commands).
 
 ### Study Annotations
 
