@@ -1,0 +1,23 @@
+select
+    id as artwork_id,
+    title,
+    artist_id,
+    name,
+    date,
+    medium,
+    dimensions,
+    acquisition_date,
+    credit,
+    catalogue,
+    department,
+    classification,
+    object_number,
+    diameter,
+    circumference,
+    height,
+    length,
+    width,
+    depth,
+    weight,
+    duration
+from raw_artwork
