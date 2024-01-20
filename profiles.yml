@@ -1,12 +1,12 @@
 config:
   send_anonymous_usage_stats: False
 
-art_catalog:
+chinese_fine_art:
   target: dev
   outputs:
     dev:
       type: postgres
-      host: localhost
+      host: host.docker.internal
       user: my_user
       password: my_password
       port: 5432

@@ -1,9 +1,9 @@
-name: 'art_catalog'
+name: 'chinese_fine_art'
 
 config-version: 2
 version: '0.1'
 
-profile: 'art_catalog'
+profile: 'chinese_fine_art'
 
 model-paths: ["models"]
 seed-paths: ["seeds"]
@@ -20,7 +20,8 @@ clean-targets:
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 
 models:
-  art_catalog:
-      materialized: table
-      staging:
-        materialized: view
+  chinese_fine_art:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
