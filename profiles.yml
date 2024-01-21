@@ -1,14 +1,14 @@
 config:
   send_anonymous_usage_stats: False
 
-chinese_fine_art:
+pokemon:
   target: dev
   outputs:
     dev:
       type: postgres
       host: host.docker.internal
-      user: my_user
-      password: my_password
+      user: postgres
+      password: postgres
       port: 5432
-      dbname: my_database
+      dbname: pokemon
       schema: public

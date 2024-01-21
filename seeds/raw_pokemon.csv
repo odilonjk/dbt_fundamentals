@@ -1,0 +1,152 @@
+pokedex_number,name,species,type_number,type_1,type_2
+1,Bulbasaur,Seed Pokémon,2,Grass,Poison
+2,Ivysaur,Seed Pokémon,2,Grass,Poison
+3,Venusaur,Seed Pokémon,2,Grass,Poison
+4,Charmander,Lizard Pokémon,1,Fire,
+5,Charmeleon,Flame Pokémon,1,Fire,
+6,Charizard,Flame Pokémon,2,Fire,Flying
+7,Squirtle,Tiny Turtle Pokémon,1,Water,
+8,Wartortle,Turtle Pokémon,1,Water,
+9,Blastoise,Shellfish Pokémon,1,Water,
+10,Caterpie,Worm Pokémon,1,Bug,
+11,Metapod,Cocoon Pokémon,1,Bug,
+12,Butterfree,Butterfly Pokémon,2,Bug,Flying
+13,Weedle,Hairy Bug Pokémon,2,Bug,Poison
+14,Kakuna,Cocoon Pokémon,2,Bug,Poison
+15,Beedrill,Poison Bee Pokémon,2,Bug,Poison
+16,Pidgey,Tiny Bird Pokémon,2,Normal,Flying
+17,Pidgeotto,Bird Pokémon,2,Normal,Flying
+18,Pidgeot,Bird Pokémon,2,Normal,Flying
+19,Rattata,Mouse Pokémon,1,Normal,
+20,Raticate,Mouse Pokémon,1,Normal,
+21,Spearow,Tiny Bird Pokémon,2,Normal,Flying
+22,Fearow,Beak Pokémon,2,Normal,Flying
+23,Ekans,Snake Pokémon,1,Poison,
+24,Arbok,Cobra Pokémon,1,Poison,
+25,Pikachu,Mouse Pokémon,1,Electric,
+26,Raichu,Mouse Pokémon,1,Electric,
+27,Sandshrew,Mouse Pokémon,1,Ground,
+28,Sandslash,Mouse Pokémon,1,Ground,
+29,Nidoran♀,Poison Pin Pokémon,1,Poison,
+30,Nidorina,Poison Pin Pokémon,1,Poison,
+31,Nidoqueen,Drill Pokémon,2,Poison,Ground
+32,Nidoran♂,Poison Pin Pokémon,1,Poison,
+33,Nidorino,Poison Pin Pokémon,1,Poison,
+34,Nidoking,Drill Pokémon,2,Poison,Ground
+35,Clefairy,Fairy Pokémon,1,Fairy,
+36,Clefable,Fairy Pokémon,1,Fairy,
+37,Vulpix,Fox Pokémon,1,Fire,
+38,Ninetales,Fox Pokémon,1,Fire,
+39,Jigglypuff,Balloon Pokémon,2,Normal,Fairy
+40,Wigglytuff,Balloon Pokémon,2,Normal,Fairy
+41,Zubat,Bat Pokémon,2,Poison,Flying
+42,Golbat,Bat Pokémon,2,Poison,Flying
+43,Oddish,Weed Pokémon,2,Grass,Poison
+44,Gloom,Weed Pokémon,2,Grass,Poison
+45,Vileplume,Flower Pokémon,2,Grass,Poison
+46,Paras,Mushroom Pokémon,2,Bug,Grass
+47,Parasect,Mushroom Pokémon,2,Bug,Grass
+48,Venonat,Insect Pokémon,2,Bug,Poison
+49,Venomoth,Poison Moth Pokémon,2,Bug,Poison
+50,Diglett,Mole Pokémon,1,Ground,
+51,Dugtrio,Mole Pokémon,1,Ground,
+52,Meowth,Scratch Cat Pokémon,1,Normal,
+53,Persian,Classy Cat Pokémon,1,Normal,
+54,Psyduck,Duck Pokémon,1,Water,
+55,Golduck,Duck Pokémon,1,Water,
+56,Mankey,Pig Monkey Pokémon,1,Fighting,
+57,Primeape,Pig Monkey Pokémon,1,Fighting,
+58,Growlithe,Puppy Pokémon,1,Fire,
+59,Arcanine,Legendary Pokémon,1,Fire,
+60,Poliwag,Tadpole Pokémon,1,Water,
+61,Poliwhirl,Tadpole Pokémon,1,Water,
+62,Poliwrath,Tadpole Pokémon,2,Water,Fighting
+63,Abra,Psi Pokémon,1,Psychic,
+64,Kadabra,Psi Pokémon,1,Psychic,
+65,Alakazam,Psi Pokémon,1,Psychic,
+66,Machop,Superpower Pokémon,1,Fighting,
+67,Machoke,Superpower Pokémon,1,Fighting,
+68,Machamp,Superpower Pokémon,1,Fighting,
+69,Bellsprout,Flower Pokémon,2,Grass,Poison
+70,Weepinbell,Flycatcher Pokémon,2,Grass,Poison
+71,Victreebel,Flycatcher Pokémon,2,Grass,Poison
+72,Tentacool,Jellyfish Pokémon,2,Water,Poison
+73,Tentacruel,Jellyfish Pokémon,2,Water,Poison
+74,Geodude,Rock Pokémon,2,Rock,Ground
+75,Graveler,Rock Pokémon,2,Rock,Ground
+76,Golem,Megaton Pokémon,2,Rock,Ground
+77,Ponyta,Fire Horse Pokémon,1,Fire,
+78,Rapidash,Fire Horse Pokémon,1,Fire,
+79,Slowpoke,Dopey Pokémon,2,Water,Psychic
+80,Slowbro,Hermit Crab Pokémon,2,Water,Psychic
+81,Magnemite,Magnet Pokémon,2,Electric,Steel
+82,Magneton,Magnet Pokémon,2,Electric,Steel
+83,Farfetch'd,Wild Duck Pokémon,2,Normal,Flying
+84,Doduo,Twin Bird Pokémon,2,Normal,Flying
+85,Dodrio,Triple Bird Pokémon,2,Normal,Flying
+86,Seel,Sea Lion Pokémon,1,Water,
+87,Dewgong,Sea Lion Pokémon,2,Water,Ice
+88,Grimer,Sludge Pokémon,1,Poison,
+89,Muk,Sludge Pokémon,1,Poison,
+90,Shellder,Bivalve Pokémon,1,Water,
+91,Cloyster,Bivalve Pokémon,2,Water,Ice
+92,Gastly,Gas Pokémon,2,Ghost,Poison
+93,Haunter,Gas Pokémon,2,Ghost,Poison
+94,Gengar,Shadow Pokémon,2,Ghost,Poison
+95,Onix,Rock Snake Pokémon,2,Rock,Ground
+96,Drowzee,Hypnosis Pokémon,1,Psychic,
+97,Hypno,Hypnosis Pokémon,1,Psychic,
+98,Krabby,River Crab Pokémon,1,Water,
+99,Kingler,Pincer Pokémon,1,Water,
+100,Voltorb,Ball Pokémon,1,Electric,
+101,Electrode,Ball Pokémon,1,Electric,
+102,Exeggcute,Egg Pokémon,2,Grass,Psychic
+103,Exeggutor,Coconut Pokémon,2,Grass,Psychic
+104,Cubone,Lonely Pokémon,1,Ground,
+105,Marowak,Bone Keeper Pokémon,1,Ground,
+106,Hitmonlee,Kicking Pokémon,1,Fighting,
+107,Hitmonchan,Punching Pokémon,1,Fighting,
+108,Lickitung,Licking Pokémon,1,Normal,
+109,Koffing,Poison Gas Pokémon,1,Poison,
+110,Weezing,Poison Gas Pokémon,1,Poison,
+111,Rhyhorn,Spikes Pokémon,2,Ground,Rock
+112,Rhydon,Drill Pokémon,2,Ground,Rock
+113,Chansey,Egg Pokémon,1,Normal,
+114,Tangela,Vine Pokémon,1,Grass,
+115,Kangaskhan,Parent Pokémon,1,Normal,
+116,Horsea,Dragon Pokémon,1,Water,
+117,Seadra,Dragon Pokémon,1,Water,
+118,Goldeen,Goldfish Pokémon,1,Water,
+119,Seaking,Goldfish Pokémon,1,Water,
+120,Staryu,Star Shape Pokémon,1,Water,
+121,Starmie,Mysterious Pokémon,2,Water,Psychic
+122,Mr. Mime,Barrier Pokémon,2,Psychic,Fairy
+123,Scyther,Mantis Pokémon,2,Bug,Flying
+124,Jynx,Human Shape Pokémon,2,Ice,Psychic
+125,Electabuzz,Electric Pokémon,1,Electric,
+126,Magmar,Spitfire Pokémon,1,Fire,
+127,Pinsir,Stag Beetle Pokémon,1,Bug,
+128,Tauros,Wild Bull Pokémon,1,Normal,
+129,Magikarp,Fish Pokémon,1,Water,
+130,Gyarados,Atrocious Pokémon,2,Water,Flying
+131,Lapras,Transport Pokémon,2,Water,Ice
+132,Ditto,Transform Pokémon,1,Normal,
+133,Eevee,Evolution Pokémon,1,Normal,
+134,Vaporeon,Bubble Jet Pokémon,1,Water,
+135,Jolteon,Lightning Pokémon,1,Electric,
+136,Flareon,Flame Pokémon,1,Fire,
+137,Porygon,Virtual Pokémon,1,Normal,
+138,Omanyte,Spiral Pokémon,2,Rock,Water
+139,Omastar,Spiral Pokémon,2,Rock,Water
+140,Kabuto,Shellfish Pokémon,2,Rock,Water
+141,Kabutops,Shellfish Pokémon,2,Rock,Water
+142,Aerodactyl,Fossil Pokémon,2,Rock,Flying
+143,Snorlax,Sleeping Pokémon,1,Normal,
+144,Articuno,Freeze Pokémon,2,Ice,Flying
+145,Zapdos,Electric Pokémon,2,Electric,Flying
+146,Moltres,Flame Pokémon,2,Fire,Flying
+147,Dratini,Dragon Pokémon,1,Dragon,
+148,Dragonair,Dragon Pokémon,1,Dragon,
+149,Dragonite,Dragon Pokémon,2,Dragon,Flying
+150,Mewtwo,Genetic Pokémon,1,Psychic,
+151,Mew,New Species Pokémon,1,Psychic,
