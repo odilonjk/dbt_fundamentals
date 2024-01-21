@@ -41,7 +41,7 @@ final as (
     from type_counts
     where count > 1
     group by trainer_id, trainer_name
-    order by 4 desc
 )
 
 select * from final
+order by count desc

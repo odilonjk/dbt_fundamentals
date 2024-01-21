@@ -30,7 +30,7 @@ final as (
     inner join pokemons using (pokemon_id)
     where count > 1
     group by trainer_id, trainer_name, pokemon_id, pokemons.pokemon_name
-    order by 5 desc
 )
 
 select * from final
+order by count desc
