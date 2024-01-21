@@ -20,6 +20,7 @@ final as (
         coalesce(pokemons_caught_amount.count, 0) as total_pokemons_caught
     from trainers
     left join pokemons_caught_amount using (trainer_id)
+    order by 3 desc
 )
 
 select * from final
