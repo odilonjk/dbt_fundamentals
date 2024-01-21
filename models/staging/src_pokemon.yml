@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: pokemon
+    database: pokemon
+    schema: public
+    tables:
+      - name: raw_caught_attempt
+      - name: raw_cities
+      - name: raw_pokemon
+      - name: raw_trainers

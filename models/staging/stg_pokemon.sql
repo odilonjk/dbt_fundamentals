@@ -5,4 +5,4 @@ select
     type_number,
     type_1,
     type_2
-from raw_pokemon
+from {{ source('pokemon', 'raw_pokemon') }}
