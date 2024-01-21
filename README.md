@@ -31,12 +31,16 @@ For *WSL 2* users it's required to keep the `pokemon.host` as `host.docker.inter
 
 ### Study Annotations
 
+**Run dbt**
+
 To run only one model:
-`dbt run --select <model_name>`
+`docker compose run --rm dbt run --select <model_name>`
+
 Ps.: It only requires the model name without the `.sql` extention.
-I still have to check how to use it with `docker compose`.
 
 ---
+
+**Configuring materialization**
 
 To configure a model to be materialized as a table instead of a view, it's required to add this config at the top of the model file:
 ```
@@ -51,7 +55,15 @@ However, it's also possible to configure it directly on `dbt_project.yml` file.
 
 ---
 
-## Naming Conventions
+**Seeds usage**
+
+Seeds should not be used to load raw data (for example, large CSV exports from a production database).
+
+Since seeds are version controlled, they are best suited to files that contain business-specific logic, for example a list of country codes or user IDs of employees.
+
+---
+
+**Naming conventions**
 
 > Sources
 
@@ -74,3 +86,18 @@ However, it's also possible to configure it directly on `dbt_project.yml` file.
 > Dimension
 
 - people, place, user, etc.
+
+---
+
+**Source usage**
+
+It's important to have a source file to configure the staging sources. In case someone need to rename a schema, or something, it's way easier to just change in the source file instead of having to rename it in every staging file.
+
+Ps.: The source name is used as schema name by default. If you have a different schema name, you have to add the attribute in the source file.
+
+---
+
+## TODO
+
+- Transform the seeds in a init.sql script executed by docker-compose when starting up the PostgreSQL container. When executing the init.sql, it should have a column with the current timestamp to be used to check the data freshness. (It's a bad practice to keep huge `.csv` files as seeds. The only file here that makes sense to be a seed in the `raw_cities.csv`.)
+- Add tests (I'll address it when taking the next step from the course).
