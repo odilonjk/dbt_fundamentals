@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_pokemon
+    columns:
+      - name: pokemon_id
+        tests:
+          - unique
+          - not_null
+      - name: pokemon_name
+        tests:
+          - not_null
+  - name: stg_trainers
+    columns:
+      - name: trainer_id
+        tests:
+          - unique
+          - not_null
+      - name: trainer_name
+        tests:
+          - not_null
+  - name: stg_caught_attempt
+    columns:
+      - name: pokemon_id
+        tests:
+          - not_null
+      - name: caught
+        tests:
+          - not_null
+      - name: trainer_id
+        tests:
+          - not_null

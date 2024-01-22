@@ -6,6 +6,10 @@ sources:
     schema: public
     tables:
       - name: raw_caught_attempt
+        columns:
+          - name: pokedex_number
+            tests:
+              - not_null
       - name: raw_cities
       - name: raw_pokemon
       - name: raw_trainers
