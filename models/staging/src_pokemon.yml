@@ -2,14 +2,19 @@ version: 2
 
 sources:
   - name: pokemon
+    description: A clone of a PostgreSQL pokemon database.
     database: pokemon
     schema: public
     tables:
       - name: raw_caught_attempt
+        description: Table with raw caught attempts values 
         columns:
           - name: pokedex_number
             tests:
               - not_null
       - name: raw_cities
+        description: Table with raw cities values 
       - name: raw_pokemon
+        description: Table with raw pokemon values 
       - name: raw_trainers
+        description: Table with raw trainers values 

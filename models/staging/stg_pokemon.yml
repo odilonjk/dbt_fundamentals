@@ -2,8 +2,10 @@ version: 2
 
 models:
   - name: stg_pokemon
+    description: Staged pokemon data.
     columns:
       - name: pokemon_id
+        description: The primary key for pokemons.
         tests:
           - unique
           - not_null
@@ -11,8 +13,10 @@ models:
         tests:
           - not_null
   - name: stg_trainers
+    description: Staged pokemon trainers data
     columns:
       - name: trainer_id
+        description: The primary key for poke trainers.
         tests:
           - unique
           - not_null
@@ -20,6 +24,7 @@ models:
         tests:
           - not_null
   - name: stg_caught_attempt
+    description: Staged caught attemptives data
     columns:
       - name: pokemon_id
         tests:
@@ -30,3 +35,5 @@ models:
       - name: trainer_id
         tests:
           - not_null
+  - name: stg_cities
+    description: '{{ doc("cities") }}'

@@ -29,6 +29,12 @@ To load just one: `docker compose run --rm dbt seed --select 'raw_artists'`
 In case you receive an error because it was not possible to connect to Postgres, try to change the attribute `pokemon.host` to `localhost` inside `profiles.yml`.
 For *WSL 2* users it's required to keep the `pokemon.host` as `host.docker.internal`.
 
+### 4. Running docs
+
+To serve the project documentation on port 8080, you need to run:
+
+`docker compose run --rm -p 8080:8080 dbt docs serve --port 8080`
+
 ### Study Annotations
 
 **Run dbt**
@@ -100,4 +106,3 @@ Ps.: The source name is used as schema name by default. If you have a different 
 ## TODO
 
 - Transform the seeds in a init.sql script executed by docker-compose when starting up the PostgreSQL container. When executing the init.sql, it should have a column with the current timestamp to be used to check the data freshness. (It's a bad practice to keep huge `.csv` files as seeds. The only file here that makes sense to be a seed in the `raw_cities.csv`.)
-- Add tests (I'll address it when taking the next step from the course).

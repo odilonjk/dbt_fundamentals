@@ -21,3 +21,5 @@ services:
     volumes:
       - .:/usr/app
       - ./profiles.yml:/root/.dbt/profiles.yml
+    ports:
+      - "8080:8080"
